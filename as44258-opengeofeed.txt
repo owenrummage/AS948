@@ -1,0 +1,10 @@
+#Trevor Janssen (AS44258) Self-published IP Geolocation
+This file contains a self-published geofeed as defined in http://tools.ietf.org/html/draft-google-self-published-geofeeds-02
+#Last update: 2020-09-26 14:00:00.051141
+#Contact: tjanssen@jantechcs.com
+192.163.29.0/24,US,US-NV,Las Vegas,89149
+23.152.168.0/24,US,US-NV,Las Vegas,89149
+206.80.236.0/24,US,US-NV,Las Vegas,89149
+2602:fed2:7031::/48,US,US-NV,Las Vegas,89149
+2602:fed2:7032::/48,US,US-NV,Las Vegas,89149
+2602:2cc::/36,US,US-NV,Las Vegas,89149

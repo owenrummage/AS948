@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <title>AS44258</title>
+    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/Footer-Basic.css">
+    <link rel="stylesheet" href="assets/css/styles.css">
+</head>
+
+<body>
+    <nav class="navbar navbar-dark navbar-expand-md jcs-navbar">
+        <div class="container-fluid"><a class="navbar-brand navbar-dark" href="#"><span class="brand font-weight-bold">Jantech Computer Services</span></a><button data-toggle="collapse" class="navbar-toggler" data-target="#navcol-1"><span class="sr-only">Toggle navigation</span><span class="navbar-toggler-icon"></span></button>
+            <div class="collapse navbar-collapse"
+                id="navcol-1">
+                <ul class="nav navbar-nav">
+                    <li class="nav-item"><a class="nav-link" href="https://bgp.he.net/AS948">bgp.he.net</a></li>
+                    <li class="nav-item"><a class="nav-link" href="https://www.peeringdb.com/asn/AS948">PeeringDB</a></li>
+                    <li class="nav-item"><a class="nav-link" href="https://stat.ripe.net/widget/bgplay#w.resource=AS948">BGPView</a></li>
+                    <li class="nav-item"><a class="nav-link" href="https://stat.ripe.net/AS948">RIPEstat</a></li>
+                    <li class="nav-item"><a class="nav-link" href="https://lg.jantechcs.com/">Looking Glass</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <h1 class="text-monospace brand" style="text-align: center;padding-top: 80px;font-size: 74px;">Jantech C.S.</h1>
+    <h1 class="text-monospace" style="text-align: center;font-size: 28px;color: rgb(113,116,119);">( AS948 / Las Vegas, NV )</h1>
+    <div>
+        <div class="container">
+            <div class="row" style="padding-top: 62px;">
+                <div class="col-md-3">
+                    <div class="card">
+                        <div class="card-body">
+                            <h4 class="text-monospace text-center card-title">Services</h4>
+                            <ul style="font-size: 19px;">
+                                <li>IP-Transit<br></li>
+                                <li>BGP Sessions via tunnels<br></li>
+                                <li>Internet Services<br></li>
+                                <li>IPv6 Leasing<br></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="card">
+                        <div class="card-body">
+                            <h4 class="text-monospace text-center card-title">Address Blocks</h4>
+                            <ul style="font-size: 19px;">
+                                <li >23.152.168.0/24</li>
+                                <li >192.163.29.0/24</li>
+                                <li >206.80.236.0/24</li>
+                                <li >2602:2cc::/36</li>
+                                <li >2602:2cc:948::/48</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="card">
+                        <div class="card-body">
+                            <div class="table-responsive" style="font-size: 14px;">
+                                <h4 class="text-monospace text-center card-title">BGP Peers</h4>
+                                <table class="table">
+                                    <thead>
+                                        <tr>
+                                            <th>AS</th>
+                                            <th>Name</th>
+                                            <th>Type</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr>
+                                            <td>AS53667</td>
+                                            <td>Frantech Solutions</td>
+                                            <td>IPv4</td>
+                                        </tr>
+                                        <tr>
+                                            <td>AS14265</td>
+                                            <td>TPx Communications</td>
+                                            <td>IPv6</td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div>
+        <div class="container">
+            <div class="row" style="padding-top: 34px;">
+                <div class="col-md-6">
+                    <div class="card">
+                        <div class="card-body">
+                            <h4 class="text-monospace text-center card-title">BGP Filtering</h4>
+                            <p class="card-text">MD5 authentication is strongly preferred. We accept prefixes of length /24 and shorter for IPv4 and /48 or shorter for IPv6. We will discard anything longer. We use max-prefix filters for all peerings. Usually 110% of your
+                                AS-SET at the time of setup. We will discard prefixes where NEXT_HOP doesn't match the neighbor's IP address<br>We will discard prefixes where the first AS in the AS_PATH doesn't match the neighbor's AS. We will discard
+                                prefixes with Private AS anywhere in the AS_PATH. We will discard bogon prefixes</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="card">
+                        <div class="card-body">
+                            <h4 class="text-monospace text-center card-title">Peering Policy</h4>
+                            <p class="card-text">Only send us traffic that is destined for the prefixes we announce to you. Do not point default or static routes to send us traffic that does not match the routes that we announce to you. Only send&nbsp;us traffic originating
+                                from your own / your customer networks. You must operate a NOC which is reachable by e-mail. You must cooperate in any case of abuse complains. We suggest that peers set a max-prefix of 50 (IPv4) and 100 (IPv6) routes on
+                                peering sessions with us.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="footer-basic">
+        <footer style="margin-left: auto; margin-right: auto;">
+            <p class="copyright">Trevor Janssen © 2020&nbsp;<a href="https://rummage.dev">Created by Owen Rummage</a></p>
+        </footer>
+    </div>
+    <script src="assets/js/jquery.min.js"></script>
+    <script src="assets/bootstrap/js/bootstrap.min.js"></script>
+</body>
+
+</html>
+
+<!--FUCK THIS SHIT-->

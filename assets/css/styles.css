@@ -1,0 +1,21 @@
+body {
+    background-color: rgb(24 24 27);
+    color: white;
+}
+
+.jcs-navbar {
+    background-color: rgba(0, 0, 0, 0.7)!important;
+}
+
+.card {
+    background-color: rgb(39 39 42);
+}
+
+.table {
+    border-color: rgb(24 24 27);
+    color: white;
+}
+
+.brand {
+    color: #D8315B
+}
